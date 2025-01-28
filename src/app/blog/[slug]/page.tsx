@@ -55,7 +55,7 @@ const BlogPost = async (params: Params) => {
 
         <div>
           {/* Blog Description */}
-          <p className="text-lg leading-relaxed whitespace-pre-wrap text-justify">
+          <p className="text-lg leading-relaxed whitespace-pre-wrap text-black text-justify">
             {data.description}
           </p>
         </div>
