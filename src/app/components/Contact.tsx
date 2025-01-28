@@ -50,7 +50,7 @@ const Contact = () => {
                   id="name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
+                  className="w-full border border-gray-300 text-black rounded-lg p-3 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
                   placeholder="Enter your name"
                 />
               </div>
@@ -64,7 +64,7 @@ const Contact = () => {
                   id="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
+                  className="w-full border border-gray-300 text-black rounded-lg p-3 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
                   placeholder="Enter your email"
                 />
               </div>
@@ -78,7 +78,7 @@ const Contact = () => {
                   rows={5}
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  className="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
+                  className="w-full border border-gray-300 text-black rounded-lg p-3 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
                   placeholder="Write your message..."
                 ></textarea>
               </div>
