@@ -38,13 +38,13 @@ const CommentSection = () => {
       <form onSubmit={handleSubmit} className="mb-4 space-y-4">
         <input
           type="text"
-          className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
+          className="w-full p-3 border border-gray-300 text-black rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
           placeholder="Your Name"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
         <textarea
-          className="w-full h-32 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
+          className="w-full h-32 p-3 border border-gray-300 text-black rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
           placeholder="Write a comment..."
           value={comment}
           onChange={(e) => setComment(e.target.value)}
