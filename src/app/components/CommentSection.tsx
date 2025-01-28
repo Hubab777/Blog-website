@@ -58,7 +58,7 @@ const CommentSection = () => {
       </form>
 
       <div>
-        <h3 className="text-xl font-medium mb-2">Comments:</h3>
+        <h3 className="text-xl text-black font-medium mb-2">Comments:</h3>
         <div className="space-y-4">
           {comments.length > 0 ? (
             comments.map((entry, index) => (
